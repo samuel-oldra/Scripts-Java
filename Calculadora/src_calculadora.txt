@@ -1,0 +1,3 @@
+"C:\\Meus documentos\\Calculadora\\Calculadora.java"
+"C:\\Meus documentos\\Calculadora\\TtdCalculadora.java"
+"C:\\Meus documentos\\Calculadora\\WinCalculadora.java"
