@@ -10,10 +10,10 @@
  * C  = classes
  *
  */
- 
- public class CInfo{
- 	// váriáveis privadas
- 	// variáveis públicas
- 	
- 	// métodos de acesso
- }
+
+public class CInfo {
+    // váriáveis privadas
+    // variáveis públicas
+
+    // métodos de acesso
+}

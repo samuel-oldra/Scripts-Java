@@ -5,7 +5,7 @@ public class CreditCard {
     private String bank;
     private double balance;
     private int limit;
-    
+
     // Método construtor:
     CreditCard(String no, String nm, String bk, double bal, int lim) {
         number = no;
@@ -14,23 +14,38 @@ public class CreditCard {
         balance = bal;
         limit = lim;
     }
-    
+
     // Métodos de acessos:
-    public String getNumber() { return number; }
-    public String getName() { return name; }
-    public String getBank() { return bank; }
-    public double getBalance() { return balance; }
-    public int getLimit() { return limit; }
-  
-    // Métodos de ação:
-    public boolean chargeIt(double price) { 	// Fornece um troco
-        if (price + balance &gt (double)limit)  // & = E; gt = great than = maior que)
-            return false; 				// Não há dinheiro suficiente para troco
-        balance += price;
-        return true; 					// The charge goes through in this case
+    public String getNumber() {
+        return number;
     }
-    public void makePayment(double payment) { 	// Faz o pagamento
-        balance -= payment; 
+
+    public String getName() {
+        return name;
+    }
+
+    public String getBank() {
+        return bank;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public int getLimit() {
+        return limit;
+    }
+
+    // Métodos de ação:
+    public boolean chargeIt(double price) { // Fornece um troco
+        if (price + balance & gt(double) limit) // & = E; gt = great than = maior que)
+            return false; // Não há dinheiro suficiente para troco
+        balance += price;
+        return true; // The charge goes through in this case
+    }
+
+    public void makePayment(double payment) { // Faz o pagamento
+        balance -= payment;
     }
 
     // Método de Classe
